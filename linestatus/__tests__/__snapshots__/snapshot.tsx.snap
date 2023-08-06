@@ -27,6 +27,46 @@ exports[`renders homepage unchanged 1`] = `
       <div
         class="grid"
       >
+        <div
+          class="card"
+        >
+          Name: 
+          Bakerloo
+           status: 
+          Good Service
+        </div>
+        <div
+          class="card"
+        >
+          Name: 
+          Circle
+           status: 
+          Good Service
+        </div>
+        <div
+          class="card"
+        >
+          Name: 
+          District
+           status: 
+          Good Service
+        </div>
+        <div
+          class="card"
+        >
+          Name: 
+          Hammersmith & City
+           status: 
+          Good Service
+        </div>
+        <div
+          class="card"
+        >
+          Name: 
+          Jubilee
+           status: 
+          Good Service
+        </div>
         <a
           class="card"
           href="https://nextjs.org/docs"
