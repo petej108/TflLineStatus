@@ -9,42 +9,46 @@ exports[`renders homepage unchanged 1`] = `
       <h1
         class="title"
       >
-        Welcome to 
-        <a
-          href="https://nextjs.org"
-        >
-          Next.js!
-        </a>
+        Line Status
       </h1>
       <p
         class="description"
       >
-        Get started by editing 
-        <code>
-          pages/index.js
-        </code>
+        Current status of London underground lines [F5] to refresh data.
       </p>
       <div
         class="grid"
       >
         <div
           class="card"
+          id="bakerloo"
         >
           Name: 
           Bakerloo
            status: 
-          Good Service
+          Part Closure
         </div>
         <div
           class="card"
+          id="central"
         >
           Name: 
-          Circle
+          Central
            status: 
           Good Service
         </div>
         <div
           class="card"
+          id="circle"
+        >
+          Name: 
+          Circle
+           status: 
+          Severe Delays
+        </div>
+        <div
+          class="card"
+          id="district"
         >
           Name: 
           District
@@ -53,92 +57,72 @@ exports[`renders homepage unchanged 1`] = `
         </div>
         <div
           class="card"
+          id="hammersmith-city"
         >
           Name: 
           Hammersmith & City
            status: 
-          Good Service
+          Severe Delays
         </div>
         <div
           class="card"
+          id="jubilee"
         >
           Name: 
           Jubilee
            status: 
           Good Service
         </div>
-        <a
+        <div
           class="card"
-          href="https://nextjs.org/docs"
+          id="metropolitan"
         >
-          <h3>
-            Documentation →
-          </h3>
-          <p>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-        <a
+          Name: 
+          Metropolitan
+           status: 
+          Good Service
+        </div>
+        <div
           class="card"
-          href="https://nextjs.org/learn"
+          id="northern"
         >
-          <h3>
-            Learn →
-          </h3>
-          <p>
-            Learn about Next.js in an interactive course with quizzes!
-          </p>
-        </a>
-        <a
+          Name: 
+          Northern
+           status: 
+          Good Service
+        </div>
+        <div
           class="card"
-          href="https://github.com/vercel/next.js/tree/canary/examples"
+          id="piccadilly"
         >
-          <h3>
-            Examples →
-          </h3>
-          <p>
-            Discover and deploy boilerplate example Next.js projects.
-          </p>
-        </a>
-        <a
+          Name: 
+          Piccadilly
+           status: 
+          Severe Delays
+        </div>
+        <div
           class="card"
-          href="https://vercel.com/new"
+          id="victoria"
         >
-          <h3>
-            Deploy →
-          </h3>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p>
-        </a>
+          Name: 
+          Victoria
+           status: 
+          Good Service
+        </div>
+        <div
+          class="card"
+          id="waterloo-city"
+        >
+          Name: 
+          Waterloo & City
+           status: 
+          Planned Closure
+        </div>
       </div>
     </main>
     <footer
       class="footer"
-    >
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Powered by
-         
-        <span
-          class="logo"
-        >
-          <img
-            alt="Vercel Logo"
-            data-nimg="1"
-            decoding="async"
-            height="16"
-            loading="lazy"
-            src="/vercel.svg"
-            style="color: transparent;"
-            width="72"
-          />
-        </span>
-      </a>
-    </footer>
+    />
   </div>
 </div>
 `;
