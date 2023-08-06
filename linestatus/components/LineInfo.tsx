@@ -4,7 +4,7 @@ import LineCard from './LineCard';
 const LineInfo = ({ lineName, lineStatus, lineId }: lineInfoType) => {
   return (
     <LineCard lineId={lineId}>
-      Name: {lineName} status: {lineStatus}
+      <div>{lineName}</div> <div>{lineStatus}</div>
     </LineCard>
   );
 };

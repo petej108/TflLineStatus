@@ -1,8 +1,7 @@
 import LineInfo from './LineInfo';
 import { lineInfoType } from 'types/lineInfo';
-import mockData from '../data/lineStatusMock.json';
 
-const LineInfoList = () => {
+const LineInfoList = ({ linesData }: any) => {
   const getLineInfo = (lineInfoRaw: any): lineInfoType => {
     const lineInfo: lineInfoType = {
       lineId: lineInfoRaw.id as string,
@@ -13,7 +12,7 @@ const LineInfoList = () => {
     return lineInfo;
   };
 
-  const LineInfoListData: lineInfoType[] = mockData.map(getLineInfo);
+  const LineInfoListData: lineInfoType[] = linesData.map(getLineInfo);
 
   return (
     <>

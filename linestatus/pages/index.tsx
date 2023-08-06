@@ -3,8 +3,15 @@ import Image from 'next/image';
 
 import styles from '@/pages/index.module.css';
 import LineInfoList from '@/components/LineInfoList';
+import { useGetLineStatus } from '../components/useLineStatusRequest';
+import mockData from '../data/lineStatusMock.json';
 
 export default function Home() {
+  const { data: lineInfoApiData, error } = useGetLineStatus();
+
+  if (error) return <h1>Something went wrong!</h1>;
+  if (!lineInfoApiData) return <h1>Loading...</h1>;
+
   return (
     <div className={styles.container}>
       <Head>
@@ -19,14 +26,12 @@ export default function Home() {
           Current status of London underground lines [F5] to refresh data.
         </p>
 
-        <div className={styles.grid}>
-          <LineInfoList />          
+        <div className={[styles.grid, styles.gridOuter].join(' ')}>
+          <LineInfoList linesData={lineInfoApiData} />
         </div>
       </main>
 
-      <footer className={styles.footer}>
-       
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
   );
 }
