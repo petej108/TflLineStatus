@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Home from '@/pages/index';
 import lineInfoApiDataMock from '../data/lineStatusMock.json';
 
-jest.mock('../components/useLineStatusRequest', () => ({
+jest.mock('../components/useLineStatus', () => ({
   useGetLineStatus: () => ({
     data: lineInfoApiDataMock,
     error: null,
