@@ -1,5 +1,6 @@
 import LineInfo from './LineInfo';
 import { lineInfoType } from 'types/lineInfo';
+import styles from '@/pages/index.module.css';
 
 const LineInfoList = ({ linesData }: any) => {
   const getLineInfo = (lineInfoRaw: any): lineInfoType => {
@@ -16,9 +17,11 @@ const LineInfoList = ({ linesData }: any) => {
 
   return (
     <>
-      {LineInfoListData.map((lineInfo) => (
-        <LineInfo {...lineInfo} />
-      ))}
+      <div role='list' className={[styles.grid, styles.gridOuter].join(' ')}>
+        {LineInfoListData.map((lineInfo) => (
+          <LineInfo {...lineInfo} />
+        ))}
+      </div>
     </>
   );
 };

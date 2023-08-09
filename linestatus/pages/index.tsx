@@ -26,9 +26,9 @@ export default function Home() {
           Current status of London underground lines [F5] to refresh data.
         </p>
 
-        <div className={[styles.grid, styles.gridOuter].join(' ')}>
+        {/* <div role='list' className={[styles.grid, styles.gridOuter].join(' ')}> */}
           <LineInfoList linesData={lineInfoApiData} />
-        </div>
+        {/* </div> */}
       </main>
 
       <footer className={styles.footer}></footer>
