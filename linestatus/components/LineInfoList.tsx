@@ -19,7 +19,7 @@ const LineInfoList = ({ linesData }: any) => {
     <>
       <div role='list' className={[styles.grid, styles.gridOuter].join(' ')}>
         {LineInfoListData.map((lineInfo) => (
-          <LineInfo {...lineInfo} />
+          <LineInfo {...lineInfo} key={lineInfo.lineId} />
         ))}
       </div>
     </>

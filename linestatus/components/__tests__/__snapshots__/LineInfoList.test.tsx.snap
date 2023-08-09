@@ -3,135 +3,151 @@
 exports[`Line Status List renders Line Info List unchanged 1`] = `
 <div>
   <div
-    class="card grid"
-    id="bakerloo"
+    class="grid gridOuter"
+    role="list"
   >
-    <div>
-      Bakerloo
+    <div
+      class="card grid"
+      id="bakerloo"
+      role="listitem"
+    >
+      <div>
+        Bakerloo
+      </div>
+       
+      <div>
+        Part Closure
+      </div>
     </div>
-     
-    <div>
-      Part Closure
+    <div
+      class="card grid"
+      id="central"
+      role="listitem"
+    >
+      <div>
+        Central
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-  </div>
-  <div
-    class="card grid"
-    id="central"
-  >
-    <div>
-      Central
+    <div
+      class="card grid"
+      id="circle"
+      role="listitem"
+    >
+      <div>
+        Circle
+      </div>
+       
+      <div>
+        Severe Delays
+      </div>
     </div>
-     
-    <div>
-      Good Service
+    <div
+      class="card grid"
+      id="district"
+      role="listitem"
+    >
+      <div>
+        District
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-  </div>
-  <div
-    class="card grid"
-    id="circle"
-  >
-    <div>
-      Circle
+    <div
+      class="card grid"
+      id="hammersmith-city"
+      role="listitem"
+    >
+      <div>
+        Hammersmith & City
+      </div>
+       
+      <div>
+        Severe Delays
+      </div>
     </div>
-     
-    <div>
-      Severe Delays
+    <div
+      class="card grid"
+      id="jubilee"
+      role="listitem"
+    >
+      <div>
+        Jubilee
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-  </div>
-  <div
-    class="card grid"
-    id="district"
-  >
-    <div>
-      District
+    <div
+      class="card grid"
+      id="metropolitan"
+      role="listitem"
+    >
+      <div>
+        Metropolitan
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-     
-    <div>
-      Good Service
+    <div
+      class="card grid"
+      id="northern"
+      role="listitem"
+    >
+      <div>
+        Northern
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-  </div>
-  <div
-    class="card grid"
-    id="hammersmith-city"
-  >
-    <div>
-      Hammersmith & City
+    <div
+      class="card grid"
+      id="piccadilly"
+      role="listitem"
+    >
+      <div>
+        Piccadilly
+      </div>
+       
+      <div>
+        Severe Delays
+      </div>
     </div>
-     
-    <div>
-      Severe Delays
+    <div
+      class="card grid"
+      id="victoria"
+      role="listitem"
+    >
+      <div>
+        Victoria
+      </div>
+       
+      <div>
+        Good Service
+      </div>
     </div>
-  </div>
-  <div
-    class="card grid"
-    id="jubilee"
-  >
-    <div>
-      Jubilee
-    </div>
-     
-    <div>
-      Good Service
-    </div>
-  </div>
-  <div
-    class="card grid"
-    id="metropolitan"
-  >
-    <div>
-      Metropolitan
-    </div>
-     
-    <div>
-      Good Service
-    </div>
-  </div>
-  <div
-    class="card grid"
-    id="northern"
-  >
-    <div>
-      Northern
-    </div>
-     
-    <div>
-      Good Service
-    </div>
-  </div>
-  <div
-    class="card grid"
-    id="piccadilly"
-  >
-    <div>
-      Piccadilly
-    </div>
-     
-    <div>
-      Severe Delays
-    </div>
-  </div>
-  <div
-    class="card grid"
-    id="victoria"
-  >
-    <div>
-      Victoria
-    </div>
-     
-    <div>
-      Good Service
-    </div>
-  </div>
-  <div
-    class="card grid"
-    id="waterloo-city"
-  >
-    <div>
-      Waterloo & City
-    </div>
-     
-    <div>
-      Planned Closure
+    <div
+      class="card grid"
+      id="waterloo-city"
+      role="listitem"
+    >
+      <div>
+        Waterloo & City
+      </div>
+       
+      <div>
+        Planned Closure
+      </div>
     </div>
   </div>
 </div>
