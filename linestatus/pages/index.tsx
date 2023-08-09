@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import styles from '@/pages/index.module.css';
 import LineInfoList from '@/components/LineInfoList';
-import { useGetLineStatus } from '../components/useLineStatusRequest';
+import { useGetLineStatus } from '@/components/useLineStatus';
 import mockData from '../data/lineStatusMock.json';
 
 export default function Home() {
