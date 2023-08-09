@@ -10,6 +10,11 @@ jest.mock('../components/useLineStatusRequest', () => ({
 }));
 
 describe('Line Status Home', () => {
+  it('renders homepage unchanged', () => {
+    const { container } = render(<Home />);
+    expect(container).toMatchSnapshot();
+  });
+
   it('renders a heading', () => {
     render(<Home />);
 
@@ -19,6 +24,4 @@ describe('Line Status Home', () => {
 
     expect(heading).toBeInTheDocument();
   });
-
-  
 });
