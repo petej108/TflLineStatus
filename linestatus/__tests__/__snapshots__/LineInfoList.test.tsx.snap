@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Line Status List renders Line Info List unchanged 1`] = `
+<div>
+  <div
+    class="card grid"
+    id="bakerloo"
+  >
+    <div>
+      Bakerloo
+    </div>
+     
+    <div>
+      Part Closure
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="central"
+  >
+    <div>
+      Central
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="circle"
+  >
+    <div>
+      Circle
+    </div>
+     
+    <div>
+      Severe Delays
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="district"
+  >
+    <div>
+      District
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="hammersmith-city"
+  >
+    <div>
+      Hammersmith & City
+    </div>
+     
+    <div>
+      Severe Delays
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="jubilee"
+  >
+    <div>
+      Jubilee
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="metropolitan"
+  >
+    <div>
+      Metropolitan
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="northern"
+  >
+    <div>
+      Northern
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="piccadilly"
+  >
+    <div>
+      Piccadilly
+    </div>
+     
+    <div>
+      Severe Delays
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="victoria"
+  >
+    <div>
+      Victoria
+    </div>
+     
+    <div>
+      Good Service
+    </div>
+  </div>
+  <div
+    class="card grid"
+    id="waterloo-city"
+  >
+    <div>
+      Waterloo & City
+    </div>
+     
+    <div>
+      Planned Closure
+    </div>
+  </div>
+</div>
+`;
