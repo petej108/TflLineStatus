@@ -14,9 +14,9 @@ describe('Line Status List', () => {
     const { container } = render(
       <LineInfoList linesData={lineInfoApiDataMock} />
     );
- 
 
-    expect(container.getElementsByClassName('card').length).toBe(lineInfoApiDataMock.default.length)
-    
+    expect(container.getElementsByClassName('card').length).toBe(
+      lineInfoApiDataMock.length
+    );
   });
 });
