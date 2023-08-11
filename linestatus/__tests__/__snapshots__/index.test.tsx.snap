@@ -14,8 +14,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
       <p
         class="description"
       >
-        Current status of London underground lines [F5] to refresh data.
+        Current status of London underground lines.
       </p>
+      <button>
+        Refresh Data
+      </button>
       <div
         class="grid gridOuter"
         role="list"

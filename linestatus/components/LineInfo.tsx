@@ -1,4 +1,4 @@
-import { lineInfoType } from '../types/lineInfo';
+import { lineInfoType } from '../types/lineInfoType';
 import LineCard from './LineCard';
 
 const LineInfo = ({ lineName, lineStatus, lineId }: lineInfoType) => {

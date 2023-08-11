@@ -118,6 +118,32 @@
           "affectedStops": [],
           "closureText": "severeDelays"
         }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 1,
+        "lineId": "circle",
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "reason": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:48:38Z",
+            "toDate": "2023-08-07T00:29:00Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "severeDelays"
+        }
       }
     ],
     "routeSections": [],

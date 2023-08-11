@@ -1,5 +1,5 @@
 import LineInfo from './LineInfo';
-import { lineInfoType } from 'types/lineInfo';
+import { lineInfoType } from 'types/lineInfoType';
 import styles from '@/pages/index.module.css';
 
 const LineInfoList = ({ linesData }: any) => {

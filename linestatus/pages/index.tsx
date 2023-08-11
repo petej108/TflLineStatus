@@ -4,13 +4,17 @@ import Image from 'next/image';
 import styles from '@/pages/index.module.css';
 import LineInfoList from '@/components/LineInfoList';
 import { useGetLineStatus } from '@/components/useLineStatus';
-import mockData from '../data/lineStatusMock.json';
+
+import mockData from '@/data/lineStatusMock.json';
+import { useEffect, useState } from 'react';
+import LineStatusWrapper from '@/components/LineStatusWrapper';
 
 export default function Home() {
-  const { data: lineInfoApiData, error } = useGetLineStatus();
-
-  if (error) return <h1>Something went wrong!</h1>;
-  if (!lineInfoApiData) return <h1>Loading...</h1>;
+  const [lineStatusWrapperKey, setLineStatusWrapperKey] = useState(0);
+  
+  const refreshHandler = () => {
+    setLineStatusWrapperKey(Math.random());
+  };
 
   return (
     <div className={styles.container}>
@@ -21,14 +25,11 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>Line Status</h1>
-
         <p className={styles.description}>
-          Current status of London underground lines [F5] to refresh data.
+          Current status of London underground lines.
         </p>
-
-        {/* <div role='list' className={[styles.grid, styles.gridOuter].join(' ')}> */}
-          <LineInfoList linesData={lineInfoApiData} />
-        {/* </div> */}
+        <button onClick={refreshHandler}>Refresh Data</button>
+        <LineStatusWrapper key={lineStatusWrapperKey} />
       </main>
 
       <footer className={styles.footer}></footer>
