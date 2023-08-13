@@ -43,3 +43,7 @@ for coverage run
 ```bash
 npm run test:coverage
 ```
+
+## Assumptions
+I have assumed that there will be only 1 status per line even though the data structure suggests it is possible to have multiple statuses.
+
