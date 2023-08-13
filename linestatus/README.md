@@ -1,27 +1,45 @@
-# Next.js + Jest
+# Tfl Line Status
 
-This app has used the Next.js + Jest Template
-You  will need npm installed
-and node installed.
+This app uses Next Js and the Next.js + Jest Template as create-react-app is now deprecated.
+https://nextjs.org/
+
+You will need npm and node installed
 
 Versions on my dev env are
-npm  version 8.11.0npm
+npm version 8.11.0npm
 node version v16.16.0
 
 ## How to Use
 
-navigate to the line items sub folder e.g
-  C:\repos\TflLineStatus\linestatus> 
-On the command line run 
-  npm install 
-  npm run dev
+navigate to https://github.com/petej108/TflLineStatus.
+clone the repo to your local machine
+open in vs code
+open the terminal and navigate to the subfolder linestatus e.g
+C:\repos\TflLineStatus\linestatus>
+On the command line run
 
-  you can access the website from
-  http://localhost:3000
-  
+```bash
+npm install
+npm run dev
+```
 
-## Run Jest Tests
+you can access the website from
+http://localhost:3000
+
+## troubleshooting
+If npm install fails delete the package.lock.json file and try again.
+you may be pointing to a different registry.
+
+## Jest Tests
+
+to run the tests
 
 ```bash
 npm test
+```
+
+for coverage run
+
+```bash
+npm run test:coverage
 ```
