@@ -26,7 +26,7 @@ npm run dev
 you can access the website from
 http://localhost:3000
 
-#troubleshooting
+## troubleshooting
 If npm install fails delete the package.lock.json file and try again.
 you may be pointing to a different registry.
 
