@@ -25,7 +25,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="bakerloo"
-          tabindex="0"
         >
           <div
             class="bakerloo linecolor"
@@ -41,7 +40,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="central"
-          tabindex="0"
         >
           <div
             class="central linecolor"
@@ -57,7 +55,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="circle"
-          tabindex="0"
         >
           <div
             class="circle linecolor"
@@ -73,7 +70,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="district"
-          tabindex="0"
         >
           <div
             class="district linecolor"
@@ -89,7 +85,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="hammersmith-city"
-          tabindex="0"
         >
           <div
             class="hammersmith-city linecolor"
@@ -105,7 +100,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="jubilee"
-          tabindex="0"
         >
           <div
             class="jubilee linecolor"
@@ -121,7 +115,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="metropolitan"
-          tabindex="0"
         >
           <div
             class="metropolitan linecolor"
@@ -137,7 +130,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="northern"
-          tabindex="0"
         >
           <div
             class="northern linecolor"
@@ -153,7 +145,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="piccadilly"
-          tabindex="0"
         >
           <div
             class="piccadilly linecolor"
@@ -169,7 +160,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="victoria"
-          tabindex="0"
         >
           <div
             class="victoria linecolor"
@@ -185,7 +175,6 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
         <li
           class="card grid"
           id="waterloo-city"
-          tabindex="0"
         >
           <div
             class="waterloo-city linecolor"
