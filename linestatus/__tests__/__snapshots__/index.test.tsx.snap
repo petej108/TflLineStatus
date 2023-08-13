@@ -19,14 +19,13 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
       <button>
         Refresh Data
       </button>
-      <div
+      <ul
         class="grid gridOuter"
-        role="list"
       >
-        <div
+        <li
           class="card grid"
           id="bakerloo"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Bakerloo
@@ -35,11 +34,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Part Closure
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="central"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Central
@@ -48,11 +47,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="circle"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Circle
@@ -61,11 +60,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Severe Delays
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="district"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             District
@@ -74,11 +73,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="hammersmith-city"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Hammersmith & City
@@ -87,11 +86,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Severe Delays
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="jubilee"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Jubilee
@@ -100,11 +99,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="metropolitan"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Metropolitan
@@ -113,11 +112,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="northern"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Northern
@@ -126,11 +125,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="piccadilly"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Piccadilly
@@ -139,11 +138,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Severe Delays
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="victoria"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Victoria
@@ -152,11 +151,11 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Good Service
           </div>
-        </div>
-        <div
+        </li>
+        <li
           class="card grid"
           id="waterloo-city"
-          role="listitem"
+          tabindex="0"
         >
           <div>
             Waterloo & City
@@ -165,8 +164,8 @@ exports[`Line Status Home renders homepage unchanged 1`] = `
           <div>
             Planned Closure
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </main>
     <footer
       class="footer"

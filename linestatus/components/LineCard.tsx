@@ -2,12 +2,12 @@
 import styles from '@/pages/index.module.css';
 const LineCard = ({ lineId, children }: any) => {
   return (
-    <div
-      role='listitem'
+    <li      
       id={lineId}
+      tabIndex={0}
       className={[styles.card, styles.grid].join(' ')}>
       {children}
-    </div>
+    </li>
   );
 };
 
