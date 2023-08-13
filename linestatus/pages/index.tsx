@@ -1,9 +1,9 @@
 import Head from 'next/head';
-
 import styles from '@/pages/index.module.css';
 
 import { useEffect, useState } from 'react';
 import LineStatusWrapper from '@/components/LineStatusWrapper';
+import Script from 'next/script';
 
 export default function Home() {
   const [lineStatusWrapperKey, setLineStatusWrapperKey] = useState(0);
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <html lang='en' />
+       
         <title>Tfl line status</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
