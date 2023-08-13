@@ -1,11 +1,15 @@
 import { lineInfoType } from '../types/lineInfoType';
-import LineCard from './LineCard';
+import styles from '@/pages/index.module.css';
 
 const LineInfo = ({ lineName, lineStatus, lineId }: lineInfoType) => {
   return (
-    <LineCard lineId={lineId}>
+    <li
+      id={lineId}
+      tabIndex={0}
+      className={[styles.card, styles.grid].join(' ')}>
+      <div className={[lineId, styles.linecolor].join(' ')}></div>
       <div>{lineName}</div> <div>{lineStatus}</div>
-    </LineCard>
+    </li>
   );
 };
 

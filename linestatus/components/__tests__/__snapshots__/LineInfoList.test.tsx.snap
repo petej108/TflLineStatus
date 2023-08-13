@@ -10,6 +10,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="bakerloo"
       tabindex="0"
     >
+      <div
+        class="bakerloo linecolor"
+      />
       <div>
         Bakerloo
       </div>
@@ -23,6 +26,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="central"
       tabindex="0"
     >
+      <div
+        class="central linecolor"
+      />
       <div>
         Central
       </div>
@@ -36,6 +42,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="circle"
       tabindex="0"
     >
+      <div
+        class="circle linecolor"
+      />
       <div>
         Circle
       </div>
@@ -49,6 +58,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="district"
       tabindex="0"
     >
+      <div
+        class="district linecolor"
+      />
       <div>
         District
       </div>
@@ -62,6 +74,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="hammersmith-city"
       tabindex="0"
     >
+      <div
+        class="hammersmith-city linecolor"
+      />
       <div>
         Hammersmith & City
       </div>
@@ -75,6 +90,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="jubilee"
       tabindex="0"
     >
+      <div
+        class="jubilee linecolor"
+      />
       <div>
         Jubilee
       </div>
@@ -88,6 +106,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="metropolitan"
       tabindex="0"
     >
+      <div
+        class="metropolitan linecolor"
+      />
       <div>
         Metropolitan
       </div>
@@ -101,6 +122,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="northern"
       tabindex="0"
     >
+      <div
+        class="northern linecolor"
+      />
       <div>
         Northern
       </div>
@@ -114,6 +138,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="piccadilly"
       tabindex="0"
     >
+      <div
+        class="piccadilly linecolor"
+      />
       <div>
         Piccadilly
       </div>
@@ -127,6 +154,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="victoria"
       tabindex="0"
     >
+      <div
+        class="victoria linecolor"
+      />
       <div>
         Victoria
       </div>
@@ -140,6 +170,9 @@ exports[`Line Status List renders Line Info List unchanged 1`] = `
       id="waterloo-city"
       tabindex="0"
     >
+      <div
+        class="waterloo-city linecolor"
+      />
       <div>
         Waterloo & City
       </div>
