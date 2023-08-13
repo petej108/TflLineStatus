@@ -51,3 +51,37 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+.bakerloo {
+  background-color: #894e24;
+}
+.central {
+  background-color: #dc241f;
+}
+.circle {
+  background-color: #e6b900;
+}
+.district {
+  background-color: #007229;
+}
+.hammersmith-city {
+  background-color: #d799af;
+}
+.jubilee {
+  background-color: #6a7278;
+}
+.metropolitan {
+  background-color: #751056;
+}
+.northern {
+  background-color: #000000;
+}
+.piccadilly {
+  background-color: #0019a8;
+}
+.victoria {
+  background-color: #0098d4;
+}
+.waterloo-city {
+  background-color: #95cdba;
+}

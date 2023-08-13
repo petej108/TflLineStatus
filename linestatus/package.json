@@ -5,12 +5,15 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "test:coverage": "jest --coverage",
+    "test:debug": "jest --runInBand --watch --debug"
   },
   "dependencies": {
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "5.16.4",

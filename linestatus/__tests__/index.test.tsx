@@ -1,14 +1,27 @@
-import { render, screen } from '@testing-library/react'
-import Home from '@/pages/index'
+import { render, screen } from '@testing-library/react';
+import Home from '@/pages/index';
+import lineInfoApiDataMock from '../data/lineStatusMock.json';
 
-describe('Home', () => {
+jest.mock('../hooks/useLineStatus', () => ({
+  useGetLineStatus: () => ({
+    data: lineInfoApiDataMock,
+    error: null,
+  }),
+}));
+
+describe('Line Status Home', () => {
+  it('renders homepage unchanged', () => {
+    const { container } = render(<Home />);
+    expect(container).toMatchSnapshot();
+  });
+
   it('renders a heading', () => {
-    render(<Home />)
+    render(<Home />);
 
     const heading = screen.getByRole('heading', {
-      name: /welcome to next\.js!/i,
-    })
+      name: /Line Status/,
+    });
 
-    expect(heading).toBeInTheDocument()
-  })
-})
+    expect(heading).toBeInTheDocument();
+  });
+});

@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Line Status Home renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <main>
+      <h1
+        class="title"
+      >
+        Line Status
+      </h1>
+      <h2
+        class="description"
+      >
+        Current status of London underground lines.
+      </h2>
+      <button>
+        Refresh Data
+      </button>
+      <ul
+        class="grid gridOuter"
+      >
+        <li
+          class="card grid"
+          id="bakerloo"
+        >
+          <div
+            class="bakerloo linecolor"
+          />
+          <div>
+            Bakerloo
+          </div>
+           
+          <div>
+            Part Closure
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="central"
+        >
+          <div
+            class="central linecolor"
+          />
+          <div>
+            Central
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="circle"
+        >
+          <div
+            class="circle linecolor"
+          />
+          <div>
+            Circle
+          </div>
+           
+          <div>
+            Severe Delays
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="district"
+        >
+          <div
+            class="district linecolor"
+          />
+          <div>
+            District
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="hammersmith-city"
+        >
+          <div
+            class="hammersmith-city linecolor"
+          />
+          <div>
+            Hammersmith & City
+          </div>
+           
+          <div>
+            Severe Delays
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="jubilee"
+        >
+          <div
+            class="jubilee linecolor"
+          />
+          <div>
+            Jubilee
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="metropolitan"
+        >
+          <div
+            class="metropolitan linecolor"
+          />
+          <div>
+            Metropolitan
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="northern"
+        >
+          <div
+            class="northern linecolor"
+          />
+          <div>
+            Northern
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="piccadilly"
+        >
+          <div
+            class="piccadilly linecolor"
+          />
+          <div>
+            Piccadilly
+          </div>
+           
+          <div>
+            Severe Delays
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="victoria"
+        >
+          <div
+            class="victoria linecolor"
+          />
+          <div>
+            Victoria
+          </div>
+           
+          <div>
+            Good Service
+          </div>
+        </li>
+        <li
+          class="card grid"
+          id="waterloo-city"
+        >
+          <div
+            class="waterloo-city linecolor"
+          />
+          <div>
+            Waterloo & City
+          </div>
+           
+          <div>
+            Planned Closure
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer
+      class="footer"
+    />
+  </div>
+</div>
+`;

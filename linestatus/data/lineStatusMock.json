@@ -1,0 +1,502 @@
+[
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "bakerloo",
+    "name": "Bakerloo",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.857Z",
+    "modified": "2023-07-25T17:15:00.857Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "bakerloo",
+        "statusSeverity": 5,
+        "statusSeverityDescription": "Part Closure",
+        "reason": "BAKERLOO LINE: Monday 31 July to Thursday 10 August, no service between Stonebridge Park and Harrow & Wealdstone. No LONDON OVERGROUND service between Willesden Junction and Watford Junction. London North Western Railway services will continue to serve Harrow & Wealdstone. In addition, they will call at Wembley Central from Monday 31 July to Friday 4 August, and from Monday 7 to Thursday 10 August. Southern services will call at Wembley Central and Harrow & Wealdstone. Special London Buses services operate.",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-07-31T03:30:00Z",
+            "toDate": "2023-08-11T00:29:00Z",
+            "isNow": false
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "PlannedWork",
+          "categoryDescription": "PlannedWork",
+          "description": "BAKERLOO LINE: Monday 31 July to Thursday 10 August, no service between Stonebridge Park and Harrow & Wealdstone. No LONDON OVERGROUND service between Willesden Junction and Watford Junction. London North Western Railway services will continue to serve Harrow & Wealdstone. In addition, they will call at Wembley Central from Monday 31 July to Friday 4 August, and from Monday 7 to Thursday 10 August. Southern services will call at Wembley Central and Harrow & Wealdstone. Special London Buses services operate.",
+          "additionalInfo": "Special London Bus Services operate:Route 718: Stonebridge Park - Wembley (Triangle / Ark Elvin Academy) - Wembley Central - North Wembley - Preston Road (for Metropolitan line and South Kenton) - Kenton - Harrow & WealdstoneRoute 720: Harrow Bus Station (for Harrow-on-the-Hill Station) - Harrow & Wealdstone - Headstone Lane - Hatch End (Harrow Arts Centre) - Carpenders Park (Prestwick Road) - Bushey (Eastbury Road) - Watford High Street - Watford Junction",
+          "created": "2023-06-20T17:10:00Z",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partClosure"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "central",
+    "name": "Central",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "circle",
+    "name": "Circle",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "circle",
+        "statusSeverity": 6,
+        "statusSeverityDescription": "Severe Delays",
+        "reason": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:48:38Z",
+            "toDate": "2023-08-07T00:29:00Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "severeDelays"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 1,
+        "lineId": "circle",
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "reason": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:48:38Z",
+            "toDate": "2023-08-07T00:29:00Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Circle Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "severeDelays"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "district",
+    "name": "District",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "hammersmith-city",
+    "name": "Hammersmith & City",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.857Z",
+    "modified": "2023-07-25T17:15:00.857Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "hammersmith-city",
+        "statusSeverity": 6,
+        "statusSeverityDescription": "Severe Delays",
+        "reason": "Hammersmith and City Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:37:20Z",
+            "toDate": "2023-08-07T00:29:00Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Hammersmith and City Line: Severe delays between Hammersmith and Edgware Road while we deal with a fire alert on the track at Westbourne Park.  GOOD SERVICE on the rest of the line.  London Underground ticket will accepted on London Buses. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "severeDelays"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "jubilee",
+    "name": "Jubilee",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "metropolitan",
+    "name": "Metropolitan",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.857Z",
+    "modified": "2023-07-25T17:15:00.857Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "northern",
+    "name": "Northern",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "piccadilly",
+    "name": "Piccadilly",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "piccadilly",
+        "statusSeverity": 6,
+        "statusSeverityDescription": "Severe Delays",
+        "reason": "Piccadilly Line: No service between Hyde Park Corner and Arnos Grove eastbound only while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Underground tickets will be accepted on London Buses, London Overground and Great Northern train services. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:57:32Z",
+            "toDate": "2023-08-07T00:29:00Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Piccadilly Line: No service between Hyde Park Corner and Arnos Grove eastbound only while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Underground tickets will be accepted on London Buses, London Overground and Great Northern train services. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "severeDelays"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "piccadilly",
+        "statusSeverity": 3,
+        "statusSeverityDescription": "Part Suspended",
+        "reason": "Piccadilly Line: No service between Hyde Park Corner and Arnos Grove eastbound only while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Underground tickets will be accepted on London Buses, London Overground and Great Northern train services. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-06T13:57:32Z",
+            "toDate": "2023-08-06T17:14:32Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Piccadilly Line: No service between Hyde Park Corner and Arnos Grove eastbound only while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Underground tickets will be accepted on London Buses, London Overground and Great Northern train services. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partSuspended"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "victoria",
+    "name": "Victoria",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "statusSeverity": 10,
+        "statusSeverityDescription": "Good Service",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": []
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "waterloo-city",
+    "name": "Waterloo & City",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2023-07-25T17:15:00.84Z",
+    "modified": "2023-07-25T17:15:00.84Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "waterloo-city",
+        "statusSeverity": 4,
+        "statusSeverityDescription": "Planned Closure",
+        "reason": "Waterloo & City line: Service operates Monday to Friday between 06:00 and 00:30 only. There is no service on Saturdays, Sundays and on public/bank holidays.",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2023-08-05T23:00:00Z",
+            "toDate": "2023-08-06T22:59:00Z",
+            "isNow": false
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "PlannedWork",
+          "categoryDescription": "PlannedWork",
+          "description": "Waterloo & City line: Service operates Monday to Friday between 06:00 and 00:30 only. There is no service on Saturdays, Sundays and on public/bank holidays.",
+          "created": "2023-01-16T05:24:00Z",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "plannedClosure"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  }
+]
