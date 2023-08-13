@@ -1,17 +1,16 @@
 import LineInfoList from './LineInfoList';
-import { useGetLineStatus } from './useLineStatus';
-import { lineStatusResponseType } from '@/types/lineStatusResponseType';
+import { useGetLineStatus } from '../hooks/useLineStatus';
+import { getLineInfoData } from '../helpers/mapLineStatusApiData';
 
-const LineStatusWrapper = () => { 
+const LineStatusWrapper = () => {
   const lineStatusResponse = useGetLineStatus();
 
-  if (lineStatusResponse?.error) return <h1>Something went wrong!</h1>;
-  if (!lineStatusResponse?.data) return <h1>Loading...</h1>;
-
+  if (lineStatusResponse?.error) return <h3>Something went wrong!</h3>;
+  if (!lineStatusResponse?.data) return <h3>Loading...</h3>;
   return (
     <>
       {lineStatusResponse?.data && (
-        <LineInfoList linesData={lineStatusResponse?.data} />
+        <LineInfoList linesData={getLineInfoData(lineStatusResponse?.data)} />
       )}
     </>
   );

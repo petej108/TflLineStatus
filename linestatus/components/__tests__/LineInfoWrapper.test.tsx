@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import lineInfoApiDataMock from '../../data/lineStatusMock.json';
 import LineStatusWrapper from '../../components/LineStatusWrapper';
 
-jest.mock('../../components/useLineStatus', () => ({
+jest.mock('../../hooks/useLineStatus', () => ({
   useGetLineStatus: () => ({
     data: null,
     error: true,
@@ -11,7 +11,7 @@ jest.mock('../../components/useLineStatus', () => ({
 
 describe('Line Status Wrapper', () => {
   it('renders loading if no data and no error', () => {
-    const useLineStatus = require('../../components/useLineStatus');
+    const useLineStatus = require('../../hooks/useLineStatus');
     useLineStatus.useGetLineStatus = jest
       .fn()
       .mockReturnValue({ data: null, error: null });
@@ -26,7 +26,7 @@ describe('Line Status Wrapper', () => {
   });
 
   it('renders error message if there is an error in the api response', () => {
-    const useLineStatus = require('../../components/useLineStatus');
+    const useLineStatus = require('../../hooks/useLineStatus');
     useLineStatus.useGetLineStatus = jest
       .fn()
       .mockReturnValue({ data: null, error: true });
@@ -41,7 +41,7 @@ describe('Line Status Wrapper', () => {
   });
 
   it('renders the data message if there is no error', () => {
-    const useLineStatus = require('../../components/useLineStatus');
+    const useLineStatus = require('../../hooks/useLineStatus');
     useLineStatus.useGetLineStatus = jest
       .fn()
       .mockReturnValue({ data: lineInfoApiDataMock, error: null });

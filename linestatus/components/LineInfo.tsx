@@ -1,4 +1,4 @@
-import { lineInfoType } from '../types/lineInfoType';
+import { lineInfoType } from '@/types/lineInfoType';
 import styles from '@/pages/index.module.css';
 
 const LineInfo = ({ lineName, lineStatus, lineId }: lineInfoType) => {
